@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--
+        基础选择器：标签选择器、类选择器、id选择器和通配符选择器
+        复合选择器：
+    -->
+    <style>
+        /*标签选择器*/
+        p {
+            color: gray;
+        }
+
+        div {
+            color: pink;
+        }
+
+        /*
+            类选择器：一个或多个，最常用。
+            中间可以加-
+        */
+        .red {
+            color: red;
+        }
+
+        .font35 {
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+<p>男生</p>
+<p>男生</p>
+<p>男生</p>
+<div>女生</div>
+<div>女生</div>
+<div>女生</div>
+
+<ul>
+    <li class="red">冰雨</li>
+    <li>来生缘</li>
+    <li class="red">李香兰</li>
+</ul>
+
+<div class="red">红色</div>
+
+<!--
+    多类名，一个类可以有多个类名
+
+-->
+<div class="red font35">刘德华</div>
+</body>
+</html>

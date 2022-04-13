@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*背景颜色
+            transparent：透明的
+        */
+        div {
+            width: 200px;
+            height: 20px;
+            background-color: red;
+        }
+        .img {
+            width: 300px;
+            height: 300px;
+            background-image: url("../image/我们恋爱吧_速动wan.jpg");
+        }
+
+        /*背景图片 background-image，非常用于控制位置
+            默认值：none，可以通过url指定图片位置
+
+            可以平铺满图片
+        */
+
+        /**
+            背景平铺：
+                background-repeat: repeat|no-repeat|repeat-x|repeat-y
+         */
+
+        /**
+            background-position:指定图片位置
+                x y
+                [top center bottom] [left center right] 不区分前后
+         */
+        h3 {
+            width: 118px;
+            height: 41px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 41px;
+            text-indent: 1.5em;
+
+            background-color: pink;
+            background-image: url("../image/icon.png");
+            background-repeat: no-repeat;
+            background-position: left center;
+        }
+    </style>
+</head>
+<body>
+<!--
+    background：
+        background-color
+        background-image
+        background-repeat
+        background-attachment
+        background-position
+-->
+<div></div>
+<div class="img"></div>
+<h3>成长守护平台</h3>
+</body>
+</html>

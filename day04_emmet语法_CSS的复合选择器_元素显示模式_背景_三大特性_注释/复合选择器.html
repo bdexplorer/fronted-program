@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*
+            复合选择器
+                1. 后代选择器
+                2. 子选择器
+                3. 并集选择器
+                4. 伪类选择器
+        */
+        /*后代选择器*/
+        ol li {
+            color: pink;
+        }
+        ol a {
+            color: red;
+        }
+        .ul1 li {
+            color: aqua;
+        }
+
+        /*
+            子选择器：只能选择儿子
+            后代选择器以选择所有后代
+        */
+        ul > li {
+            color: aliceblue;
+        }
+
+
+    </style>
+</head>
+<body>
+<ol>
+    <li>我是ol的孩子</li>
+    <li>我是ol的孩子</li>
+    <li>
+        我是ol的孩子
+        <a href="#">我是孙子</a>
+    </li>
+</ol>
+<ul>
+    <li>我是ul的孩子</li>
+    <li>我是ul的孩子</li>
+    <li>我是ul的孩子</li>
+</ul>
+<ul class="ul1">
+    <li>我是ul的孩子</li>
+    <li>我是ul的孩子</li>
+    <li>我是ul的孩子</li>
+</ul>
+</body>
+</html>

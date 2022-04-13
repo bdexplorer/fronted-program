@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            color: pink;
+            font: 12px/24px 'Microsoft YaHei'
+        }
+
+        div {
+            color: pink;!important;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        层叠性：给选择器设置相同的样式，此时一个样式会覆盖另一个冲突的样式
+            样式冲突，遵循就近原则，哪个样式离结构近，就执行哪个样式。
+
+        继承性：子标签会继承父标签的某些样式
+            文字相关的样式（text- font- line- color）
+
+        优先级：
+            继承或者* 0,0,0,0
+            元素选择器 0,0,0,1
+            类选择器或者伪类选择器 0,0,1,0
+            ID选择器 0,1,0,0
+            行内样式 style= 1,0,0,0
+            !important 无穷大
+
+            继承的权重为0，不管父亲的权重多高，子类的权重是0
+
+            复合选择器会有权重叠加问题
+                ul li 会比 li大， 0,0,0,1+0,0,0,1
+
+
+
+
+        行高不跟单位：
+            父 font: 12px/1.5 'Microsoft YaHei'
+            子 font-size: 14px 此时行高为14*1.5px
+
+    -->
+    <div>粉红的回忆</div>
+<p>粉红的回忆</p>
+</body>
+
+</html>

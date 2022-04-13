@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*相对定位：重点
+           元素在移动位置的时候，是相对于它原来的位置来说的。
+
+           选择器 {position: relative;}
+
+           原来的位置继续占有，后面的盒子仍然以标准流的方式对待它
+
+           相对定位并没有脱标（保留原来位置），与绝对定位结合
+         */
+        .box1 {
+            position: relative;
+            top: 100px;
+            left: 100px;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*绝对定位：重点
+            在元素移动位置的时候，是相对于它祖先元素来说的（父元素）。
+
+            选择器 {position: absolute;}
+
+            1、如果没有祖先元素或者祖先元素没有定位，则以浏览器为准定位。
+            2、如果祖先元素由定位（相对、绝对、固定），则以最近一级有定位祖先元素为参考点移动位置。
+            3、绝对定位不在占有原来的位置（脱标）
+
+            小技巧：
+                固定在版心右侧位置
+
+                小算法：
+                    1、先让固定定位的盒子left:50%。走到浏览器可视区的一半位置
+                    2、让固定定位的盒子margin-left:版心宽度的一半距离。
+         */
+        .box1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background-color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+
+</body>
+</html>

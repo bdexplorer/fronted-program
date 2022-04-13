@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c33ddef9-6902-4f2f-b103-15f07c5593a3" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Program File\maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="26d0KNz4wjhZW7OU38taFEH28fQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/day08_css定位/example/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day07_ps切图_学成在线案例\images" />
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day05_css三大特性_盒子模型\example" />
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day03_css_语法规范_选择器_字体属性\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day08_css定位\example\images" />
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day08_css定位" />
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day07_ps切图_学成在线案例\images" />
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day06_2_浮动" />
+      <recent name="C:\Users\CW\Desktop\note\computer\前端\html_css\day06_2_浮动\example" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c33ddef9-6902-4f2f-b103-15f07c5593a3" name="Default Changelist" comment="" />
+      <created>1647738091110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647738091110</updated>
+      <workItem from="1647738093269" duration="289000" />
+      <workItem from="1647738660784" duration="7830000" />
+      <workItem from="1648038450133" duration="643000" />
+      <workItem from="1648595621562" duration="766000" />
+      <workItem from="1648644148389" duration="5515000" />
+      <workItem from="1648681535297" duration="1923000" />
+      <workItem from="1648735939285" duration="4459000" />
+      <workItem from="1648766473497" duration="3513000" />
+      <workItem from="1649200578996" duration="1911000" />
+      <workItem from="1649218792271" duration="17675000" />
+      <workItem from="1649286745744" duration="1423000" />
+      <workItem from="1649338143541" duration="5442000" />
+      <workItem from="1649370394447" duration="4231000" />
+      <workItem from="1649420925843" duration="4253000" />
+      <workItem from="1649469071104" duration="710000" />
+      <workItem from="1649719221911" duration="1405000" />
+      <workItem from="1649852287907" duration="3546000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1398" y="399" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1648682133083">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1398" y="399" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2194.1194@0.0.2194.1194" timestamp="1648682133083" />
+    <state x="1374" y="129" width="440" height="473" key="FileChooserDialogImpl" timestamp="1649469173842">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1374" y="129" width="440" height="473" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1649469173842" />
+    <state x="1460" y="519" key="NewPhpFileDialog" timestamp="1647738127065">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1460" y="519" key="NewPhpFileDialog/0.0.2194.1194@0.0.2194.1194" timestamp="1647738127065" />
+    <state x="776" y="189" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1649227426978">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="776" y="189" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.2194.1194@0.0.2194.1194" timestamp="1649227426978" />
+    <state x="1323" y="333" width="642" height="534" key="find.popup" timestamp="1649719948094">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1323" y="333" width="642" height="534" key="find.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1649719948094" />
+    <state x="932" y="320" key="new project wizard" timestamp="1649469176089">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="932" y="320" key="new project wizard/0.0.2194.1194@0.0.2194.1194" timestamp="1649469176089" />
+    <state x="1302" y="281" key="run.anything.popup" timestamp="1648650320645">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1302" y="281" key="run.anything.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1648650320645" />
+    <state x="1309" y="269" width="672" height="678" key="search.everywhere.popup" timestamp="1649372186485">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="1309" y="269" width="672" height="678" key="search.everywhere.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1649372186485" />
+  </component>
+</project>

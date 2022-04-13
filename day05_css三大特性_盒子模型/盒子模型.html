@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--
+        页面布局三大核心：盒子模型，浮动和定位
+
+        盒子模型：就是将html页面中的布局元素看作是一个矩形的盒子
+        css盒子模型本质就是盒子，封装周围的HTML元素，它包括：边框、外边框（控制盒子的距离）、内边距和实际内容。
+    -->
+    <style>
+        /*边框*/
+        div {
+            /*border: border-width|border-style|border-color*/
+            width: 300px;
+            height: 200px;
+            border-width: 5px;
+
+            border-style: solid;
+            /*
+                none 无边框
+                hidden 隐藏边框
+                dotted 点线 （重要）
+                dashed 虚线 （重要）
+                solid 实线 （重要）
+                double 双线边框
+                groove 根据border-color值画3D凹槽
+                ridge 根据border-color值画菱形边框
+                inset 根据border-color值画3D凹边
+                outset 根据border-color值画3D凸边*/
+            border-color: red;
+
+            /*复合写法，没有顺序
+             border: 1px solid red;
+            */
+
+            /*权重高*/
+            border-top-color: orange;
+
+            /*
+                边框会影响盒子的实际大小：
+                    width + border-width * 2
+            */
+            border-collapse: collapse;
+        }
+
+
+        /*内边距 padding
+            padding-left 左边距
+            padding-right
+            padding-top
+            padding-bottom
+
+            内边距会影响盒子的实际大小:
+                width +  padding-left + padding-right
+
+            如果不指定width和height，padding则不会撑大盒子
+
+        */
+        .div3 {
+            width: 280px;
+            padding-left: 20px;
+            border-collapse: collapse;
+        }
+
+        .div4 {
+            padding: 5px; /*所有边距都是5px*/
+            padding: 5px 10px; /*上下5px， 左右10px*/
+            padding: 5px 10px 20px; /*上5px， 左右10px 下20px*/
+            padding: 5px 10px 20px 30px; /*上右下左*/
+        }
+
+        .div5 {
+            padding: 5px; /*所有边距都是5px*/
+        }
+
+        /*外边距：margin
+            margin-left
+            margin-right
+            margin-top
+            margin-bottom
+
+            利用外边距可以实现块元素水平居中显示：
+                1、盒子必须指定了宽度（width）
+                2、盒子左右的外边距都设置为auto
+
+            行内元素或者行内块元素水平居中给其父元素添加text-align:center
+
+            是用margin定义块元素的垂直外边距时，可能会出现外边距的合并。
+                当上下两个块元素相遇（兄弟关系），上面元素由margin-bottom下面元素有margin-top，则它们的边距为两者中的较大者。
+                解决：只给一个盒子添加边距
+
+               嵌套块元素垂直外边距的塌陷：
+                对于两个父子关系的块元素，父元素有上外边距同时子元素也有上外边距，此时父元素的外边距值为较大的外边距值。
+                1、可以为父元素定义上边框（此时子元素就可以使用margin-top）
+                2、可以为父元素指定上内边距
+                3、可以为父元素添加overflow:hidden
+
+
+            行内元素尽量只设置左右内外边距
+           */
+        .one {
+            margin-bottom: 10px;
+        }
+        /*清除默认内外边距：
+            css第一行代码
+        */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /*ps
+            ctrl+R打开标尺
+            右击标尺->修改为像素
+            ctrl + 加号放大，ctrl + 减号缩小
+            ctrl + 空格拖动
+
+            可以测量和取色
+        */
+
+    </style>
+</head>
+<body>
+    <div class="one"></div>
+    <div class="div3">
+        hello html
+    </div>
+<div class="div5">
+    hello .........................................
+</div>
+</body>
+</html>

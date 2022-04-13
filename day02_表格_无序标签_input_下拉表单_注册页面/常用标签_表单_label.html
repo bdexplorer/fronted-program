@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    form属性：
+        action - url地址，服务器地址
+        method - 提交方式
+        name - 表单域名称
+
+    input属性：
+        type - button|checkbox|file|hidden|image|password|radio|reset|submit|text
+        name - 名字
+        value -
+        checked - 规定此input元素首次加载时应该被选中。（复选框和单选框）
+        maxlength - 规定输入字段中的字符的最大长度
+
+    select属性：
+        selected="selected"
+
+    textarea属性：
+        cols
+        rows - 调整大小
+
+-->
+
+<!--
+    label为input元素定义标注
+    标签用于绑定一个表单元素，当点击<label>标签内的文本是，浏览器会自动将焦点转到或者选择对应的表单元素
+-->
+
+
+<form action="demo.php" method="post" , name="name1">
+    <label for="username">用户名</label>
+    <input type="text" name="username" value="请输入用户名" id="username"/> <br/>
+    密码: <input type="password" , name="password"/> <br/>
+    性别: <label for="sex">男</label> <input type="radio" name="sex" value="男" checked="checked" id="sex"/>
+    <label for="sex1">女</label>
+    <input type="radio" name="sex" value="女" id="sex1"/>
+    <br/> <!--单选框, name属性必须一致-->
+    爱好：吃饭 <input type="checkbox" name="hobby"/> 睡觉 <input type="checkbox" name="hobby"> <br /> <!--复选框-->
+
+    籍贯：
+    <select>
+        <option>山东</option>
+        <option>广东</option>
+        <option  selected="selected">天津</option>
+    </select> <br />
+
+    <!-- 大量输入文字 -->
+    <textarea>
+        今日反馈
+    </textarea>
+
+    <input type="submit" value="免费注册">
+</form>
+</body>
+</html>
